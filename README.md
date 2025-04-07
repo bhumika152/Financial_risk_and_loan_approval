@@ -16,3 +16,11 @@ Clean and prepare the dataset by addressing missing values, duplicates, and outl
 
 Model Building and Evaluation
 Construct and assess regression and classification models, using appropriate performance metrics to evaluate their predictive capabilities.
+
+The Financial Risk for Loan Approval dataset was systematically analyzed through the application of both machine learning and deep learning models to evaluate loan eligibility and financial risk. Data preprocessing was a critical step, involving log transformations to handle skewness, normalization to scale features, and label encoding to convert categorical variables for model compatibility.
+
+Among traditional models, the RandomForestClassifier and RandomForestRegressor exhibited strong performance in predicting loan approval status and risk scores, benefiting from their ability to handle complex interactions and nonlinearities within the data. These models provided high accuracy, robustness, and interpretability, making them suitable for practical deployment in financial decision systems.
+
+To further refine predictive capabilities, neural network architectures were employed. These models leveraged deep learning's strength in capturing intricate patterns and relationships in data, resulting in improved performance metrics for both classification and regression tasks. Their success highlighted the potential of deep learning in enhancing risk assessment models, particularly when dealing with large and high-dimensional financial datasets.
+
+Overall, the combined approach of rigorous data preprocessing, ensemble learning methods, and deep learning techniques proved effective in modeling financial risk. This study demonstrates that integrating AI-driven insights can significantly support and optimize the loan approval process, ultimately contributing to more informed and fair financial decision-making.
